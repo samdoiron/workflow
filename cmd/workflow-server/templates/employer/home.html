@@ -1,0 +1,15 @@
+<div class="error">{{.Error}}</div>
+<div class="info">{{.Info}}</div>
+
+<h1>Welcome {{.Employee.Name}}</h1>
+
+<h2>Submit Employment Information to Mortgage Co.</h2>
+<p>
+    By submitting this form, you consent to Bob Loblaw Law Blog sending
+    your employment information to Mortgage Co. LLC.
+</p>
+<form class="pure-form" method="POST" action="submit-to-mortgage">
+    <label for="application_id">Application ID</label>
+    <input type="text" name="application_id" id="application_id">
+    <button class="pure-button pure-button-primary">Submit</button>
+</form>

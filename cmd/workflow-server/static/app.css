@@ -1,0 +1,67 @@
+html,
+body {
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: lighter;
+    color: rgba(0,0,0,.87);
+    margin: 0;
+    position: relative;
+
+    height: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.topbar {
+    background: #333;
+    height: 48px;
+    display: flex;
+    flex-flow: row nowrap;
+    color: rgba(255,255,255,.9);
+}
+
+.is-employer .topbar {
+    background: rebeccapurple;
+}
+
+.topbar-title {
+    font-size: 1.4em;
+    margin: 0;
+    margin-left: 16px;
+    line-height: 48px;
+    margin-right: 16px;
+}
+
+.topbar-tagline {
+    font-style: italic;
+}
+
+.topbar-item {
+    text-decoration: none;
+    color: white;
+    line-height: 48px;
+}
+
+main {
+    flex: 1;
+    width: 960px;
+    margin: 0 auto;
+}
+
+
+footer {
+    text-align: center;
+    color: rgba(0,0,0,.54);
+}
+
+.error {
+    background: #e74c3c;
+}
+
+.info {
+    background: #3498db;
+}
